@@ -59,7 +59,7 @@ class _HomePageState extends State<HomePage>
         duration: const Duration(seconds: 2));
     // створюємо анімацію
     _animation = Tween<double>(begin: 0.0, end: 2 * pi).animate(_controller);
-    // запучкаємо контроллер анімації в постійний повтор
+    // запуcкаємо контроллер анімації в постійний повтор
     _controller.repeat();
   }
 
